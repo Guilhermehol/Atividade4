@@ -1,0 +1,12 @@
+# Atividade4
+CREATE DATABASE imc;
+USE imc;
+CREATE TABLE historico(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    nome VARCHAR(64) NOT NULL,
+    endereco VARCHAR(128) NOT NULL,
+    altura INT NOT NULL,
+    peso FLOAT NOT NULL,
+    imc FLOAT NOT NULL,
+    situacao VARCHAR(64) NOT NULL
+);
